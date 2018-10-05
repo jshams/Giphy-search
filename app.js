@@ -8,8 +8,6 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('public'))
 
-// Jakc is a penis head
-
 // app.get('/', function (req, res) {
 //   console.log(req.query.term)
 //   var queryString = req.query.term;
